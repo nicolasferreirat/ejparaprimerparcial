@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Personas</title>
+    <link rel="stylesheet" href="listado.css" />
+    <script defer src="listado.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lista de Personas</h1>
+      <div class="contenedorTabla">
+        <table id="listaPersonas">
+          <thead>
+            <tr>
+              <th class="idcol">Id</th>
+              <th>Nombre</th>
+              <th>Duracion</th>
+              <th>ID usuario</th>
+              <th>creador</th>
+              <th>Usuarios</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Aquí se cargarán las filas dinámicamente -->
+          </tbody>
+        </table>
+      </div>
+      <div class="botones">
+        <button
+          id="menu"
+          class="boton-menu"
+          onclick="location.href='../MenuPrincipal/menuPrincipal.html'"
+        >
+          Volver al menú
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
